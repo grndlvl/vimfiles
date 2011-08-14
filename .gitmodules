@@ -19,3 +19,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/php-indent"]
+	path = bundle/php-indent
+	url = git://github.com/2072/PHP-Indenting-for-VIm.git
