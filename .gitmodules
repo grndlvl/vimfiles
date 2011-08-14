@@ -31,3 +31,6 @@
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = git://github.com/tomtom/tcomment_vim.git
+[submodule "bundle/drupal-snippets"]
+	path = bundle/drupal-snippets
+	url = git@github.com:grndlvl/drupal-snippets.git
