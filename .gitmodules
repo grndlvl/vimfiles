@@ -7,3 +7,6 @@
 [submodule "bundle/irblack-color"]
 	path = bundle/irblack-color
 	url = git://github.com/wgibbs/vim-irblack.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = git://github.com/vim-scripts/matchit.zip.git
