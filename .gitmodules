@@ -28,12 +28,12 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/tcomment"]
-	path = bundle/tcomment
-	url = git://github.com/tomtom/tcomment_vim.git
 [submodule "bundle/drupal-snippets"]
 	path = bundle/drupal-snippets
 	url = git@github.com:grndlvl/drupal-snippets.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
