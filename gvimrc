@@ -2,7 +2,7 @@ colorscheme ir_black
 "set transparency=5
 set guioptions=em
 set colorcolumn=80
-set gfn=Monospace\ 12
+set gfn=Monospace\ 10
 
 " Project Tree
 autocmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))

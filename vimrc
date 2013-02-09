@@ -60,6 +60,9 @@ if has("autocmd")
   autocmd BufRead,BufNewFile *.{md,mkd,markdown} set filetype=markdown
   " Ruby
   autocmd BufRead,BufNewFile {Rakefile,Capfile,Gemfile} set filetype=ruby
+
+  " Python
+  autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 endif
 
 " NERDTree configuration
