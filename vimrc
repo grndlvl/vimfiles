@@ -50,19 +50,22 @@ set foldlevel=0
 set nofoldenable
 
 if has("autocmd")
+  let autocommands_loaded = 1
+
   " Remember last location in file
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal g'\"" | endif
 
   " Drupal *.module and *.install files.
-  autocmd BufRead,BufNewFile *.{module,install,test,inc} set filetype=php.drupal.html
+  autocmd BufRead,BufNewFile,FileReadPost *.{module,install,test,inc} set filetype=php.drupal.html
   " Markdown
-  autocmd BufRead,BufNewFile *.{md,mkd,markdown} set filetype=markdown
+  autocmd BufRead,BufNewFile,FileReadPost *.{md,mkd,markdown} set filetype=markdown
   " Ruby
-  autocmd BufRead,BufNewFile {Rakefile,Capfile,Gemfile} set filetype=ruby
+  autocmd BufRead,BufNewFile,FileReadPost {Rakefile,Capfile,Gemfile} set filetype=ruby
 
   " Python
-  autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd Filetype python source ~/.vim/profiles/python/vimrc
+  autocmd Filetype php.drupal.html source ~/.vim/profiles/drupal/vimrc
 endif
 
 " NERDTree configuration
@@ -72,6 +75,3 @@ map <Leader>n :NERDTreeToggle<CR>
 " Enable syntastic syntax checking
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
-
-" MacVIM shift+arrow-keys behavior (required in .vimrc)
-let macvim_hig_shift_movement = 1
