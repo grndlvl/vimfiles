@@ -37,3 +37,6 @@
 [submodule "profiles/python/bundle/pyflakes"]
 	path = profiles/python/bundle/pyflakes
 	url = git://github.com/kevinw/pyflakes.git
+[submodule "bundle/drupal-snippets"]
+	path = bundle/drupal-snippets
+	url = git@github.com:grndlvl/drupal-snippets.git
