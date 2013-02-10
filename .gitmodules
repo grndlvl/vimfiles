@@ -38,8 +38,8 @@
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "profiles/python/bundle/pydoc.vim"]
-	path = profiles/python/bundles/pydoc.vim
-	url = git://github.com/vim-scripts/pydoc.vim.git
+	path = profiles/python/bundle/pydoc.vim
+	url = git://github.com/fs111/pydoc.vim.git
 [submodule "profiles/python/bundle/pyflakes"]
-	path = profiles/python/bundles/pyflakes
-	url = git://github.com/vim-scripts/pyflakes.git
+	path = profiles/python/bundle/pyflakes
+	url = git://github.com/kevinw/pyflakes.git
