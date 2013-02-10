@@ -19,18 +19,12 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
-[submodule "bundle/php-indent"]
-	path = bundle/php-indent
-	url = git://github.com/2072/PHP-Indenting-for-VIm.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/drupal-snippets"]
-	path = bundle/drupal-snippets
-	url = git@github.com:grndlvl/drupal-snippets.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git

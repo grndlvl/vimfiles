@@ -20,13 +20,14 @@ inoremap <Nul> <C-x><C-o>
 
 " Get this plugin from http://www.vim.org/scripts/script.php?script_id=1112
 " Pressing "K" takes you to the documentation for the word under the cursor.
-" @todo DO THIS WITH PATHOGEN!
-autocmd filetype python source ~/.vim/profiles/python/bundles/pydoc.vim/plugin/pydoc.vim
+" @todo Can this be done with pathogen?
+source ~/.vim/profiles/python/bundle/pydoc.vim/ftplugin/python_pydoc.vim
 
 " Get this plugin from http://www.vim.org/scripts/script.php?script_id=3161
 " Pressing "F7" run's pyflakes
-" @todo DO THIS WITH PATHOGEN!
-autocmd filetype python source ~/.vim/profiles/python/bundles/pyflakes/plugin/ftplugin/python_pyflakes.vim
+" @todo Can this be done with pathogen?
+"source ~/.vim/profiles/python/bundle/pyflakes/plugin/python_pyflakes.vim
+
 
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
